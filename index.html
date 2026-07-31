@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Shoaib Ali — Freelance Graphic Designer specializing in brand identity, social media systems, posters, and print collateral.">
+    <title>Shoaib Ali — Graphic Designer & Visual Artist</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Lenis Smooth Scroll CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor Follower -->
+    <div class="cursor-follower" id="cursor"></div>
+
+    <!-- Background Ambient Gradients & Canvas -->
+    <div class="ambient-bg">
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+        <canvas id="particle-canvas"></canvas>
+    </div>
+
+    <!-- Floating Luxury Navbar -->
+<header class="header-floating">
+    <div class="nav-capsule">
+        <a href="#home" class="logo">
+            <span class="logo-text">SHOAIB</span><span class="logo-dot">.</span><span class="logo-accent">ALI</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#work" class="nav-item">Work</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#services" class="nav-item">Services</a>
+        </nav>
+
+        <a href="#footer" class="nav-cta">
+            <span>Let's Talk</span>
+            <i class="fa-solid fa-arrow-up-right"></i>
+        </a>
+    </div>
+</header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="subtitle animate-fade">INDEPENDENT GRAPHIC DESIGNER</p>
+                    <h1 class="hero-title animate-split">
+                        Designing Visual Stories That Leave a <span class="text-accent">Lasting Impression.</span>
+                    </h1>
+                    <p class="hero-description animate-fade">
+                        Specializing in brand identity systems, custom vector artwork, packaging, and high-impact poster design for forward-thinking brands.
+                    </p>
+                    <div class="hero-cta animate-fade">
+                        <a href="#work" class="btn btn-primary magnetic-target">
+                            <span>View Portfolio</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary magnetic-target">
+                            <span>Let's Work Together</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="scroll-text">SCROLL TO EXPLORE</span>
+            </div>
+        </section>
+
+<!-- Selected Work Section -->
+        <section id="work" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">SELECTED WORK</span>
+                    <h2 class="section-title">Crafted with Purpose &amp; Precision</h2>
+                </div>
+
+                
+                <!-- JavaScript will automatically insert project cards here -->
+                <div class="portfolio-grid" id="portfolio-grid"></div>
+            </div>
+        </section>
+
+       <!-- About Section with Synced Side-Swap -->
+<section id="about" class="section bg-secondary">
+    <div class="container">
+        <div class="about-grid">
+            <!-- Left Column: Photo (Lands here from the top-right) -->
+            <div class="about-image-column">
+                <div class="photo-luxury-wrapper">
+                    <div class="photo-3d-card">
+                        <img src="images/shoaib.jpg" alt="Shoaib Ali Portrait" loading="lazy">
+                        <div class="luxury-light-sweep"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Text Content (Lands here from below) -->
+            <div class="about-content-column">
+                <span class="section-tag">ABOUT THE DESIGNER</span>
+                <h2 class="section-title">Shoaib Ali — Visual Designer</h2>
+                <p class="about-text">
+                    I am a graphic designer crafting visual identities, custom vector art, product renders, and print media. I build clean, balanced layouts with sharp attention to typography and minimalism.
+                </p>
+
+                <div class="skills-block">
+                    <h3 class="skills-title">Core Expertise</h3>
+                    <div class="skills-tags">
+                        <span>Brand Identity</span>
+                        <span>Adobe Illustrator</span>
+                        <span>Photoshop Design</span>
+                        <span>Poster Art</span>
+                        <span>Packaging Design</span>
+                        <span>Typography</span>
+                        <span>Canva Design</span>
+                        <span>Vector Graphics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- Services Section -->
+        <!-- Tailored Creative Capabilities Section -->
+        <!-- Tailored Creative Capabilities Section -->
+<section id="services" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">WHAT I DO</span>
+            <h2 class="section-title">Tailored Creative Capabilities</h2>
+        </div>
+
+        <div class="services-grid">
+            <!-- Capability 1 -->
+            <div class="service-card magnetic-target-card">
+                <span class="service-number">01</span>
+                <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+                <h3 class="service-title">Brand &amp; Visual Identity</h3>
+                <p class="service-desc">Designing distinct brand aesthetics including logo concepts, vector marks, color systems, and cohesive identity guidelines.</p>
+                <ul class="service-list">
+                    <li>Logo &amp; Brand Marks</li>
+                    <li>Color &amp; Typography Rules</li>
+                    <li>Visual Style Guides</li>
+                </ul>
+            </div>
+
+            <!-- Capability 2 -->
+            <div class="service-card magnetic-target-card">
+                <span class="service-number">02</span>
+                <div class="service-icon"><i class="fa-solid fa-box-open"></i></div>
+                <h3 class="service-title">Product &amp; Packaging Design</h3>
+                <p class="service-desc">High-end product visual mockups, realistic 3D-style cosmetic renders, and unboxing artwork designed for product launches.</p>
+                <ul class="service-list">
+                    <li>Cosmetic Packaging</li>
+                    <li>Product Mockups &amp; Visuals</li>
+                    <li>Label Artwork</li>
+                </ul>
+            </div>
+
+            <!-- Capability 3 -->
+            <div class="service-card magnetic-target-card">
+                <span class="service-number">03</span>
+                <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h3 class="service-title">Poster &amp; Key Visual Art</h3>
+                <p class="service-desc">Dynamic vector artwork, Swiss-style typographic posters, character integrations, and striking visual compositions.</p>
+                <ul class="service-list">
+                    <li>Promotional Posters</li>
+                    <li>Character &amp; Vector Art</li>
+                    <li>Creative Typography</li>
+                </ul>
+            </div>
+
+            <!-- Capability 4 -->
+            <div class="service-card magnetic-target-card">
+                <span class="service-number">04</span>
+                <div class="service-icon"><i class="fa-solid fa-hashtag"></i></div>
+                <h3 class="service-title">Social Media Graphics</h3>
+                <p class="service-desc">Eye-catching social media templates, promo banners, and digital marketing assets styled to boost online audience engagement.</p>
+                <ul class="service-list">
+                    <li>Instagram Banners &amp; Posts</li>
+                    <li>Promo Content Layouts</li>
+                    <li>Digital Marketing Collateral</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+        
+
+    <!-- Luxury Minimalist Footer -->
+     <footer id="footer" class="footer-luxury"></footer>
+<footer class="footer-luxury">
+    <div class="container">
+        <div class="footer-card-wrapper">
+            <div class="footer-brand-col">
+                <a href="#home" class="footer-logo">SHOAIB<span>.</span>ALI</a>
+                <p class="footer-tagline">Visual Designer &amp; Digital Artist</p>
+                
+                <div class="footer-email-box">
+                    <span class="email-label">DIRECT INQUIRIES</span>
+                    <a href="mailto:shoaibali492@gmail.com" class="email-address">
+                        <i class="fa-solid fa-envelope"></i> shoaibali492@gmail.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-actions-col">
+                <span class="actions-label">LET'S CONNECT</span>
+                <div class="footer-social-buttons">
+                    <a href="https://wa.me/923123276147" target="_blank" rel="noopener noreferrer" class="luxury-btn whatsapp-btn magnetic-target">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>WhatsApp Chat</span>
+                        <i class="fa-solid fa-arrow-up-right arrow"></i>
+                    </a>
+                    
+                    <a href="https://instagram.com/shoaib_ali492" target="_blank" rel="noopener noreferrer" class="luxury-btn instagram-btn magnetic-target">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram Profile</span>
+                        <i class="fa-solid fa-arrow-up-right arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-sub-bar">
+            <p>© 2026 Shoaib Ali. All rights reserved.</p>
+            <span class="availability-badge">
+                <span class="status-dot"></span> Available for Commissions
+            </span>
+        </div>
+    </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Image Lightbox Modal -->
+    <div id="image-modal" class="image-modal" aria-hidden="true">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <div class="modal-content-wrapper">
+            <img id="modal-image" src="" alt="Enlarged Portfolio Preview">
+            <p id="modal-caption" class="modal-caption"></p>
+        </div>
+    </div>
+</body>
+</html>

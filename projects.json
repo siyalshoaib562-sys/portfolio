@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Aura Fragrance Conceptual Design",
+    "category": "Product Design",
+    "description": "High-end cosmetic perfume bottle visualization featuring marble textures, glass refractions, and custom typography.",
+    "image": "images/post3.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Creative Daily Poster Art",
+    "category": "Poster Design & Graphic Art",
+    "description": "Bold vector poster composition featuring dynamic swirl patterns, character integration, and expressive typography.",
+    "image": "images/post.jpg"
+  }
+]
