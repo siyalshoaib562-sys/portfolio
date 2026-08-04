@@ -12,5 +12,12 @@
     "category": "Poster Design & Graphic Art",
     "description": "Bold vector poster composition featuring dynamic swirl patterns, character integration, and expressive typography.",
     "image": "images/post.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Creative Daily Poster Art",
+    "category": "Poster Design",
+    "description": "Bold vector poster composition featuring dynamic swirl patterns, character integration, and expressive typography.",
+    "image": "images/youm-e-istehsal.jpg"
   }
 ]
